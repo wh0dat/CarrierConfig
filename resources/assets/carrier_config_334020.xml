@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <int name="maxMessageSize" value="1048576" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <int name="carrier_default_wfc_ims_mode_int" value="1"/>
+        <boolean name="editable_wfc_mode_bool" value="false" />
+        <int name="carrier_default_wfc_ims_roaming_mode_int" value="1"/>
+        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
+        <boolean name="hide_ims_apn_bool" value="true" />
+        <boolean name="shall_filt_ims_conference_dialing_paricipant_bool" value="true" />
+        <boolean name="editable_voicemail_number_setting_bool" value="false" />
+    </carrier_config>
+</carrier_config_list>
+

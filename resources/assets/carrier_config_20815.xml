@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <int name="maxImageHeight" value="1944" />
+        <int name="maxMessageSize" value="614400" />
+        <int name="maxImageWidth" value="2592" />
+        <int name="smsToMmsTextThreshold" value="6" />
+        <string-array name="non_roaming_operator_string_array" num="3">
+            <item value="20801" />
+            <item value="20815" />
+            <item value="EMPTY_WHEN_VOICE_OOS" />
+        </string-array>
+        <boolean name="prefer_2g_bool" value="false" />
+        <boolean name="gsm_cdma_calls_can_be_hd_audio" value="true" />
+    </carrier_config>
+</carrier_config_list>
+

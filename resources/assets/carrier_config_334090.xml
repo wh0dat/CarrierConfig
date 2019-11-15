@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <boolean name="skip_cf_fail_to_disable_dialog_bool" value="true" />
+        <boolean name="moto_enable_ussd_alert" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <int name="maxMessageSize" value="599000" />
+        <string-array name="non_roaming_operator_string_array" num="3">
+            <item value="33403"/>
+            <item value="334030"/>
+            <item value="334050"/>
+        </string-array>
+        <boolean name="hide_ims_apn_bool" value="true" />
+        <boolean name="editable_voicemail_number_setting_bool" value="false" />
+        <boolean name="gsm_cdma_calls_can_be_hd_audio" value="true" />
+
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="editable_wfc_roaming_mode_bool" value="true" />
+        <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
+    </carrier_config>
+</carrier_config_list>
+

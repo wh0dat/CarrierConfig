@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <boolean name="rtt_supported_bool" value="true" />
+        <int name="vvm_port_number_int" value="1808" />
+        <string name="vvm_destination_number_string">122</string>
+        <int name="maxImageHeight" value="1944" />
+        <string name="carrier_vvm_package_name_string">com.tmobile.vvm.application</string>
+        <string name="vvm_type_string">vvm_type_cvvm</string>
+        <boolean name="allowEnablingWapPushSI" value="true" />
+        <boolean name="enableMMSDeliveryReports" value="true" />
+        <boolean name="enableMMSReadReports" value="true" />
+        <boolean name="enableWapPushSI" value="true" />
+        <int name="maxMessageSize" value="1048576" />
+        <int name="maxImageWidth" value="2592" />
+        <int name="recipientLimit" value="20" />
+        <int name="smsToMmsTextThreshold" value="12" />
+        <int name="volte_replacement_rat_int" value="3" />
+        <int name="wfc_spn_format_idx_int" value="1" />
+        <string-array name="wfc_operator_error_codes_string_array" num="1"><item value="REG09|0" /></string-array>
+        <boolean name="carrier_name_override_bool" value="true" />
+        <string name="carrier_name_string">T-Mobile</string>
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_ims_gba_required_bool" value="true" />
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
+        <boolean name="editable_wfc_roaming_mode_bool" value="true"/>
+        <boolean name="moto_lppe_available_bool" value="true" />
+        <boolean name="hide_ims_apn_bool" value="true" />
+        <boolean name="carrier_rtt_supported" value="true" />
+        <boolean name="carrier_rtt_auto_upgrade" value="false" />
+        <boolean name="carrier_rtt_upgrade_supported" value="true"/>
+        <boolean name="carrier_rtt_downgrade_supported" value="false"/>
+        <boolean name="carrier_rtt_supported_on_vtcalls" value="true"/>
+        <long name="message_expiration_time_long" value="86400000" /> <!-- 24 hours -->
+        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="editable_enhanced_4g_lte_bool" value="false" />
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="dun" />
+            <item value="supl" />
+        </string-array>
+        <string-array name="carrier_metered_roaming_apn_types_strings" num="4">
+            <item value="default" />
+            <item value="dun" />
+            <item value="supl" />
+            <item value="mms" />
+        </string-array>
+        <string name="config_ims_package_override_string"></string>
+	<boolean name="gsm_cdma_calls_can_be_hd_audio" value="true" />
+    </carrier_config>
+    <carrier_config imsi="^31026097.*">
+        <boolean name="carrier_name_override_bool" value="true" />
+        <string name="carrier_name_string">Fi Network</string>
+    </carrier_config>
+    <carrier_config gid1="6134"> <!-- Republic Wireless -->
+        <boolean name="carrier_vt_available_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="false" />
+        <boolean name="allowEnablingWapPushSI" value="false" />
+        <boolean name="enableWapPushSI" value="false" />
+        <string name="vvm_type_string">vvm_type_disable</string>
+        <boolean name="support_manage_ims_conference_call_bool" value="false" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+        <boolean name="carrier_name_override_bool" value="false" />
+        <string name="carrier_name_string"></string>
+        <boolean name="rtt_supported_bool" value="false" />
+        <boolean name="carrier_rtt_supported" value="false" />
+    </carrier_config>
+    <carrier_config gid1="6134" propcheck="ro.com.google.gmsversion=NOT_EMPTY">
+        <string name="config_ims_package_override_string">com.google.android.ims</string>
+    </carrier_config>
+    <carrier_config gid1="6D38">
+        <boolean name="carrier_name_override_bool" value="false" />
+        <string name="carrier_name_string">MetroPcs</string>
+    </carrier_config>
+    <carrier_config gid1="6D38" carrierid="metropcs"> <!-- MetroPCS -->
+        <string name="carrier_vvm_package_name_string">com.metropcs.service.vvm</string>
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config gid1="6D38" propcheck="ro.com.google.gmsversion=NOT_EMPTY">
+        <string name="config_ims_package_override_string">com.google.android.ims</string>
+    </carrier_config>
+    <carrier_config carrierid="tmo">
+        <boolean name="moto_hide_non_user_apn_edit_delete_bool" value="true" />
+        <boolean name="show_iccid_in_sim_status_bool" value="true" />
+        <boolean name="support_video_conference_call_bool" value="true" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config carrierid="metropcs">
+        <boolean name="moto_hide_non_user_apn_edit_delete_bool" value="true" />
+        <boolean name="show_iccid_in_sim_status_bool" value="true" />
+        <boolean name="support_video_conference_call_bool" value="true" />
+    </carrier_config>
+    <!-- Tracfone shows empty string as SPN -->
+    <carrier_config gid1="deff">
+        <boolean name="carrier_vt_available_bool" value="false" />
+        <int name="carrier_default_wfc_ims_mode_int" value="2"/>
+        <boolean name="carrier_name_override_bool" value="true" />
+        <string name="carrier_name_string">EMPTY</string>
+        <string-array name="moto_operator_name_replace_string_array" num="1">
+            <item value="ANY|EMPTY" />
+        </string-array>
+        <string name="vvm_type_string">vvm_type_disable</string>
+    </carrier_config>
+    <carrier_config gid1="deff" propcheck="ro.com.google.gmsversion=NOT_EMPTY">
+        <string name="config_ims_package_override_string">com.google.android.ims</string>
+    </carrier_config>
+    <carrier_config gid1="ddff">
+        <boolean name="carrier_name_override_bool" value="true" />
+        <string name="carrier_name_string">EMPTY</string>
+        <string-array name="moto_operator_name_replace_string_array" num="1">
+            <item value="ANY|EMPTY" />
+        </string-array>
+        <string name="vvm_type_string">vvm_type_disable</string>
+    </carrier_config>
+    <carrier_config gid1="ddff" propcheck="ro.com.google.gmsversion=NOT_EMPTY">
+        <string name="config_ims_package_override_string">com.google.android.ims</string>
+    </carrier_config>
+    <carrier_config gid1="534d">
+        <int name="carrier_default_wfc_ims_mode_int" value="2"/>
+        <boolean name="carrier_name_override_bool" value="true" />
+        <string name="carrier_name_string">EMPTY</string>
+        <string-array name="moto_operator_name_replace_string_array" num="1">
+            <item value="ANY|EMPTY" />
+        </string-array>
+        <string name="vvm_type_string">vvm_type_disable</string>
+    </carrier_config>
+    <carrier_config gid1="534d" propcheck="ro.com.google.gmsversion=NOT_EMPTY">
+        <string name="config_ims_package_override_string">com.google.android.ims</string>
+    </carrier_config>
+    <carrier_config gid1="4d4b">
+        <int name="carrier_default_wfc_ims_mode_int" value="2"/>
+        <boolean name="carrier_name_override_bool" value="true" />
+        <string name="carrier_name_string">EMPTY</string>
+        <string-array name="moto_operator_name_replace_string_array" num="1">
+            <item value="ANY|EMPTY" />
+        </string-array>
+        <string name="vvm_type_string">vvm_type_disable</string>
+    </carrier_config>
+    <carrier_config gid1="4d4b" propcheck="ro.com.google.gmsversion=NOT_EMPTY">
+        <string name="config_ims_package_override_string">com.google.android.ims</string>
+    </carrier_config>
+    <!-- Other MVNOs -->
+    <carrier_config gid1="2ac9">
+        <string name="vvm_type_string">vvm_type_disable</string>
+        <int name="carrier_default_wfc_ims_mode_int" value="2"/>
+        <boolean name="carrier_name_override_bool" value="false" />
+        <string name="carrier_name_string"></string>
+    </carrier_config>
+    <carrier_config gid1="60ff">
+        <string name="vvm_type_string">vvm_type_disable</string>
+        <boolean name="carrier_name_override_bool" value="false" />
+        <string name="carrier_name_string"></string>
+    </carrier_config>
+    <carrier_config gid1="61ff">
+        <string name="vvm_type_string">vvm_type_disable</string>
+        <boolean name="carrier_name_override_bool" value="false" />
+        <string name="carrier_name_string"></string>
+    </carrier_config>
+    <carrier_config gid1="49ff">
+        <string name="vvm_type_string">vvm_type_disable</string>
+        <boolean name="carrier_name_override_bool" value="false" />
+        <string name="carrier_name_string"></string>
+    </carrier_config>
+    <carrier_config gid1="62ff">
+        <string name="vvm_type_string">vvm_type_disable</string>
+        <boolean name="carrier_name_override_bool" value="false" />
+        <string name="carrier_name_string"></string>
+    </carrier_config>
+    <carrier_config gid1="4201">
+        <string name="vvm_type_string">vvm_type_disable</string>
+        <boolean name="carrier_name_override_bool" value="false" />
+        <string name="carrier_name_string"></string>
+    </carrier_config>
+    <carrier_config gid1="44ff">
+        <string name="vvm_type_string">vvm_type_disable</string>
+        <boolean name="carrier_name_override_bool" value="false" />
+        <string name="carrier_name_string"></string>
+    </carrier_config>
+    <carrier_config gid1="4102">
+        <string name="vvm_type_string">vvm_type_disable</string>
+        <boolean name="carrier_name_override_bool" value="false" />
+        <string name="carrier_name_string"></string>
+    </carrier_config>
+    <carrier_config gid1="38ff">
+        <string name="vvm_type_string">vvm_type_disable</string>
+        <boolean name="carrier_name_override_bool" value="false" />
+        <string name="carrier_name_string"></string>
+    </carrier_config>
+    <carrier_config gid1="39ff">
+        <string name="vvm_type_string">vvm_type_disable</string>
+        <boolean name="carrier_name_override_bool" value="false" />
+        <string name="carrier_name_string"></string>
+    </carrier_config>
+    <carrier_config gid1="50ff">
+        <string name="vvm_type_string">vvm_type_disable</string>
+        <boolean name="carrier_name_override_bool" value="false" />
+        <string name="carrier_name_string"></string>
+    </carrier_config>
+    <carrier_config gid1="37ff">
+        <string name="vvm_type_string">vvm_type_disable</string>
+        <boolean name="carrier_name_override_bool" value="false" />
+        <string name="carrier_name_string"></string>
+    </carrier_config>
+    <carrier_config gid1="69ff">
+        <string name="vvm_type_string">vvm_type_disable</string>
+        <boolean name="carrier_name_override_bool" value="false" />
+        <string name="carrier_name_string"></string>
+    </carrier_config>
+</carrier_config_list>
+

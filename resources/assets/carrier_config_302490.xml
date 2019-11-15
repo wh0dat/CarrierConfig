@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <int name="smsToMmsTextThreshold" value="6" />
+        <int name="recipientLimit" value="20" />
+        <int name="maxImageHeight" value="1944" />
+        <int name="maxSubjectLength" value="80" />
+        <int name="maxMessageSize" value="1048576" />
+        <int name="maxImageWidth" value="2592" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="hide_ims_apn_bool" value="true" />
+        <string name="wfc_emergency_address_carrier_app_string">https://vowifi.authenticateme.ca</string>
+        <string-array name="carrier_metered_iwlan_apn_types_strings" num="4">
+            <item value="cbs" />
+            <item value="default" />
+            <item value="dun" />
+            <item value="supl" />
+        </string-array>
+    </carrier_config>
+</carrier_config_list>
+

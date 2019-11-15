@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config_list>
+    <carrier_config>
+        <string-array name="roaming_operator_string_array" num="2">
+            <item value="404"/>
+            <item value="405"/>
+        </string-array>
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="ignore_data_enabled_changed_for_video_calls" value="true" />
+        <boolean name="vilte_data_is_metered_bool" value="false" />
+    </carrier_config>
+</carrier_config_list>
+

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+<carrier_config>
+<boolean name="show_apn_setting_cdma_bool" value="true" />
+</carrier_config>
+<carrier_config customerid="verizon">
+    <int name="volte_replacement_rat_int" value="6" />
+</carrier_config>
+<carrier_config customerid="ACG">
+    <int name="volte_replacement_rat_int" value="6" />
+</carrier_config>
+<carrier_config customerid="tracfone">
+    <int name="volte_replacement_rat_int" value="6" />
+</carrier_config>
+<carrier_config customerid="LRA">
+    <int name="volte_replacement_rat_int" value="6" />
+</carrier_config>
+<carrier_config carrierid="att">
+    <boolean name="moto_hide_non_user_apn_edit_delete_bool" value="true" />
+    <boolean name="hide_ims_apn_bool" value="true" />
+</carrier_config>
+<carrier_config carrierid="tmo">
+    <boolean name="moto_hide_non_user_apn_edit_delete_bool" value="true" />
+</carrier_config>
+<carrier_config carrierid="metropcs">
+    <boolean name="moto_hide_non_user_apn_edit_delete_bool" value="true" />
+</carrier_config>
+</carrier_config_list>
+

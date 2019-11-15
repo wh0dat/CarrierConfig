@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <boolean name="mmsCloseConnection" value="true"/>
+        <boolean name="dtmf_type_enabled_bool" value="true" />
+        <boolean name="show_apn_setting_cdma_bool" value="true" />
+        <int name="volte_replacement_rat_int" value="6" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_allow_turnoff_ims_bool" value="false" />
+        <boolean name="carrier_volte_provisioning_required_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="moto_lppe_available_bool" value="true" />
+        <boolean name="support_pause_ims_video_calls_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="carrier_allow_vce_bool" value="true" />
+        <boolean name="carrier_wfc_mdn_required_bool" value="true" />
+        <boolean name="editable_wfc_mode_bool" value="false"/>
+        <int name="carrier_default_wfc_ims_mode_int" value="1"/>
+        <boolean name="editable_wfc_roaming_mode_bool" value="true" />
+        <int name="carrier_default_wfc_ims_roaming_mode_int" value="1"/>
+        <boolean name="moto_enable_broadcast_phone_state_change" value="true" />
+        <boolean name="allow_video_call_in_low_battery" value="true" />
+        <boolean name="moto_auto_resume_holding_call" value="true" />
+        <boolean name="downgrade_video_call_when_mobile_data_off" value="false" />
+        <boolean name="use_rcs_presence_bool" value="true" />
+        <boolean name="rtt_supported_bool" value="true" />
+        <boolean name="carrier_rtt_supported_on_vtcalls" value="false"/>
+        <boolean name="carrier_rtt_upgrade_supported" value="true"/>
+        <boolean name="carrier_rtt_downgrade_supported" value="true"/>
+    </carrier_config>
+</carrier_config_list>
+

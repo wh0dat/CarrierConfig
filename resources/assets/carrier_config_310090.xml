@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+  <carrier_config>
+    <int name="recipientLimit" value="20" />
+    <int name="maxImageHeight" value="1944" />
+    <int name="maxMessageSize" value="614400" />
+    <int name="maxImageWidth" value="2592" />
+    <boolean name="csp_enabled_bool" value="true" />
+    <boolean name="mmsRoamingAutoRetrieveByDefault" value="true" />
+    <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+    <boolean name="editable_enhanced_4g_lte_bool" value="false" />
+  </carrier_config>
+</carrier_config_list>
+

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <int name="moto_back_to_auto_network_selection_timer" value="0" />
+        <boolean name="prefer_2g_bool" value="false" />
+        <int name="moto_back_to_auto_network_selection_timer" value="0" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="moto_hide_non_user_apn_edit_delete_bool" value="true" />
+        <string-array name="non_roaming_operator_string_array" num="1">
+            <item value="50502"/>
+        </string-array>
+    </carrier_config>
+</carrier_config_list>
+

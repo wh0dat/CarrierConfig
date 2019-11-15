@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <boolean name="rtt_supported_bool" value="true" />
+        <int name="vvm_port_number_int" value="1808" />
+        <string name="vvm_destination_number_string">122</string>
+        <string name="carrier_vvm_package_name_string">com.tmobile.vvm.application</string>
+        <string name="vvm_type_string">vvm_type_cvvm</string>
+        <int name="volte_replacement_rat_int" value="3" />
+        <boolean name="allowEnablingWapPushSI" value="true" />
+        <boolean name="enableMMSDeliveryReports" value="true" />
+        <boolean name="enableMMSReadReports" value="true" />
+        <boolean name="enableWapPushSI" value="true" />
+        <int name="maxMessageSize" value="1048576" />
+        <int name="maxImageWidth" value="2592" />
+        <int name="maxImageHeight" value="1944" />
+        <boolean name="carrier_name_override_bool" value="true" />
+        <string name="carrier_name_string">T-Mobile</string>
+        <int name="recipientLimit" value="20" />
+        <int name="smsToMmsTextThreshold" value="6" />
+        <long name="message_expiration_time_long" value="43200000" /> <!-- 12 hours -->
+        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="editable_enhanced_4g_lte_bool" value="false" />
+        <boolean name="gsm_cdma_calls_can_be_hd_audio" value="true" />
+    </carrier_config>
+    <carrier_config gid1="6D38"> <!-- MetroPCS -->
+        <string name="carrier_vvm_package_name_string">com.metropcs.service.vvm</string>
+    </carrier_config>
+    <carrier_config carrierid="tmo">
+        <boolean name="moto_hide_non_user_apn_edit_delete_bool" value="true" />
+        <boolean name="show_iccid_in_sim_status_bool" value="true" />
+    </carrier_config>
+    <carrier_config carrierid="metropcs">
+        <boolean name="moto_hide_non_user_apn_edit_delete_bool" value="true" />
+        <boolean name="show_iccid_in_sim_status_bool" value="true" />
+    </carrier_config>
+</carrier_config_list>
+

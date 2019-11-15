@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <int name="smsToMmsTextThreshold" value="8" />
+        <int name="recipientLimit" value="20" />
+        <int name="maxImageHeight" value="1944" />
+        <int name="maxSubjectLength" value="80" />
+        <string name="emailGatewayNumber">6245</string>
+        <int name="maxMessageSize" value="614400" />
+        <int name="maxImageWidth" value="2592" />
+        <boolean name="voicemail_notification_persistent_bool" value="true" />
+        <string-array name="non_roaming_operator_string_array" num="1">
+            <item value="302" />
+        </string-array>
+        <boolean name="editable_voicemail_number_setting_bool" value="false" />
+    </carrier_config>
+    <!-- Bell -->
+    <carrier_config gid1="3d">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <int name="carrier_default_wfc_ims_mode_int" value="1" />
+        <string name="wfc_emergency_address_carrier_app_string">com.motorola.coresettingsext/.BellWfcUpdateAddress</string>
+    </carrier_config>
+    <!-- Virgin -->
+    <carrier_config gid1="3e">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <int name="carrier_default_wfc_ims_mode_int" value="1" />
+        <string name="wfc_emergency_address_carrier_app_string">com.motorola.coresettingsext/.VirginWfcUpdateAddress</string>
+    </carrier_config>
+</carrier_config_list>
+

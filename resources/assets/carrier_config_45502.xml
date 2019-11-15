@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <boolean name="show_apn_setting_cdma_bool" value="true" />
+        <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
+        <int name="volte_replacement_rat_int" value="6" />
+        <boolean name="ignore_data_enabled_changed_for_video_calls" value="true" />
+        <boolean name="vilte_data_is_metered_bool" value="false" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="false" />
+        <boolean name="carrier_ims_setting_reset_after_sim_swap_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="moto_convert_plus_for_ims_call_bool" value="false" />
+    </carrier_config>
+</carrier_config_list>
+

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <string name="default_vm_number_string">8154886245</string>
+        <int name="smsToMmsTextThreshold" value="1" />
+        <int name="maxMessageTextSize" value="-1" />
+        <int name="recipientLimit" value="20" />
+        <int name="maxImageHeight" value="2432" />
+        <int name="maxSubjectLength" value="80" />
+        <string name="httpParams">X-MDN: ##LINE1##</string>
+        <int name="maxMessageSize" value="1048576" />
+        <int name="maxImageWidth" value="4320" />
+        <boolean name="enabledMMS" value="true" />
+        <boolean name="enableMultipartSMS" value="true" />
+        <boolean name="mmsRoamingAutoRetrieveByDefault" value="true"/>
+        <int name="cdma_3waycall_flash_delay_int" value="200" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+</carrier_config_list>
+

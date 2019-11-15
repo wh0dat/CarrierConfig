@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <string name="default_vm_number_string">3311</string>
+        <int name="maxSubjectLength" value="80" />
+        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="dun" />
+            <item value="supl" />
+        </string-array>
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="hide_ims_apn_bool" value="true" />
+        <boolean name="enableWapPushSI" value="true" />
+        <int name="carrier_default_wfc_ims_mode_int" value="1"/>
+        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
+        <int name="wfc_spn_format_idx_int" value="1" />
+        <boolean name="display_hd_audio_property_bool" value="false" />
+        <boolean name="call_barring_visibility_bool" value="true" />
+        <string name="vvm_type_string">vvm_type_disable</string>
+    </carrier_config>
+</carrier_config_list>
+

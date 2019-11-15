@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <int name="smsToMmsTextThreshold" value="6"/>
+        <int name="recipientLimit" value="20"/>
+        <int name="maxImageHeight" value="1944"/>
+        <int name="maxSubjectLength" value="80"/>
+        <int name="maxMessageSize" value="3072000"/>
+        <int name="maxImageWidth" value="2592"/>
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+        <int name="carrier_default_wfc_ims_mode_int" value="1"/>
+        <boolean name="editable_wfc_roaming_mode_bool" value="true" />
+        <string name="wfc_emergency_address_carrier_app_string">http://aut1-api-cl-gw.ext.videotron.com/customer-profile-mgmt/1.0/vowifi-api/initialisation </string>
+    </carrier_config>
+</carrier_config_list>
+

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
+        <boolean name="display_hd_audio_property_bool" value="false" />
+        <string name="default_vm_number_string">+4365011000</string>
+        <string-array name="non_roaming_operator_string_array" num="1">
+            <item value="23203" />
+        </string-array>
+    </carrier_config>
+</carrier_config_list>
+

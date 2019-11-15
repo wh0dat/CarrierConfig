@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <int name="recipientLimit" value="20" />
+        <int name="smsToMmsTextThreshold" value="6" />
+    </carrier_config>
+    <carrier_config carrierid="att">
+        <boolean name="moto_hide_non_user_apn_edit_delete_bool" value="true" />
+        <boolean name="hide_ims_apn_bool" value="true" />
+    </carrier_config>
+    <carrier_config carrierid="tmo">
+        <boolean name="moto_hide_non_user_apn_edit_delete_bool" value="true" />
+    </carrier_config>
+    <carrier_config carrierid="metropcs">
+        <boolean name="moto_hide_non_user_apn_edit_delete_bool" value="true" />
+    </carrier_config>
+</carrier_config_list>
+

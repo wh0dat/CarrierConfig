@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <int name="smsToMmsTextThreshold" value="1" />
+        <int name="recipientLimit" value="20" />
+        <int name="maxSubjectLength" value="80" />
+        <string name="httpParams">X-MDN: ##LINE1##</string>
+        <int name="maxMessageSize" value="1048576" />
+        <boolean name="use_otasp_for_provisioning_bool" value="true" />
+        <int name="cdma_3waycall_flash_delay_int" value="70" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+        <boolean name="gsm_cdma_calls_can_be_hd_audio" value="true" />
+    </carrier_config>
+    <carrier_config spn="Sprint">
+        <string-array name="moto_mt_sms_filter_list" num="3">
+            <item value="byprefixsuffix;//ANDROID;com.coremobility.app.vnotes;com.coremobility.integration.message.CM_SMSReceiver;//CM" />
+            <item value="byprefix;//LL;com.locationlabs.sparkle.yellow.pre;com.locationlabs.v3client.util.SMSNotificationListener" />
+            <item value="byprefix;//OEMTEST:;null;null" />
+        </string-array>
+    </carrier_config>
+</carrier_config_list>
+

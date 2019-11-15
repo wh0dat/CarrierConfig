@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <int name="maxImageHeight" value="1944" />
+        <int name="maxImageWidth" value="2592" />
+        <int name="recipientLimit" value="20" />
+        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="hide_ims_apn_bool" value="true" />
+        <boolean name="editable_wfc_mode_bool" value="false" />
+        <int name="carrier_default_wfc_ims_mode_int" value="1"/>
+        <int name="carrier_default_wfc_ims_roaming_mode_int" value="1"/>
+        <boolean name="call_barring_visibility_bool" value="true" />
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="dun" />
+            <item value="supl" />
+        </string-array>
+        <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="dun" />
+            <item value="supl" />
+        </string-array>
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+        <boolean name="display_hd_audio_property_bool" value="false" />
+    </carrier_config>
+</carrier_config_list>
+

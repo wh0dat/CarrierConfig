@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config_list>
+    <carrier_config>
+        <string-array name="non_roaming_operator_string_array" num="2">
+            <item value="20420"/>
+            <item value="20416"/>
+        </string-array>
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <int name="carrier_default_wfc_ims_mode_int" value="1"/>
+    </carrier_config>
+</carrier_config_list>
+

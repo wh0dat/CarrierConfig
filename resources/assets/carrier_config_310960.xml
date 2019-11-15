@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <int name="smsToMmsTextThreshold" value="1" />
+        <int name="recipientLimit" value="20" />
+        <int name="maxSubjectLength" value="80" />
+        <string name="httpParams">X-MDN: ##LINE1##</string>
+        <int name="maxMessageSize" value="1048576" />
+        <boolean name="use_otasp_for_provisioning_bool" value="true" />
+        <string name="carrier_eri_file_name_string">eri_310960.xml</string>
+        <int name="cdma_3waycall_flash_delay_int" value="200" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+        <boolean name="config_telephony_use_own_number_for_voicemail_bool" value="true" />
+    </carrier_config>
+    <carrier_config gid1="BA00110000000000"> <!-- STRATA -->
+        <boolean name="show_apn_setting_cdma_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_allow_turnoff_ims_bool" value="false" />
+        <boolean name="carrier_volte_provisioning_required_bool" value="true" />
+        <boolean name="moto_auto_resume_holding_call" value="true" />
+        <int name="volte_replacement_rat_int" value="6" />
+        <boolean name="mmsRoamingAutoRetrieveByDefault" value="true" />
+        <boolean name="force_imei_bool" value="true" />
+    </carrier_config>
+</carrier_config_list>
+

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <int name="maxMessageSize" value="1048576" />
+        <int name="maxSubjectLength" value="80" />
+        <boolean name="enableSMSDeliveryReports" value="true"/>
+        <boolean name="smsDeliveryReportSettingOnByDefault" value="true"/>
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="editable_enhanced_4g_lte_bool" value="false" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+    </carrier_config>
+</carrier_config_list>
+

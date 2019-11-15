@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <int name="maxImageHeight" value="1944" />
+        <int name="maxImageWidth" value="2592" />
+        <string name="default_vm_number_string">+31654501233</string>
+        <int name="maxMessageSize" value="1048576" />
+        <int name="recipientLimit" value="20" />
+        <int name="smsToMmsTextThreshold" value="3" />
+        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
+        <int name="carrier_default_wfc_ims_mode_int" value="1" />
+        <boolean name="enabledMMS" value="false" />
+    </carrier_config>
+    <carrier_config gid1="BAE0000000000000">
+        <boolean name="rtt_supported_bool" value="true" />
+        <boolean name="sms_requires_destination_number_conversion_bool" value="true" />
+        <boolean name="mdn_is_additional_voicemail_number_bool" value="true" />
+        <boolean name="allow_adding_apns_bool" value="false" />
+        <boolean name="broadcast_emergency_call_state_changes_bool" value="true" />
+        <string name="carrier_eri_file_name_string">eri_311480.xml</string>
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <string name="default_vm_number_string">*86</string>
+        <int-array name="lte_rsrp_thresholds_int_array" num="4">
+            <item value="-115" />  <!-- SIGNAL_STRENGTH_POOR -->
+            <item value="-105" />  <!-- SIGNAL_STRENGTH_MODERATE -->
+            <item value="-95" />  <!-- SIGNAL_STRENGTH_GOOD -->
+            <item value="-85" />  <!-- SIGNAL_STRENGTH_GREAT -->
+        </int-array>
+        <string-array name="dial_string_replace_string_array" num="2">
+            <item value="*611:+19085594899" />
+            <item value="*86:+1MDN" />
+        </string-array>
+        <string-array name="carrier_data_call_permanent_failure_strings" num="14">
+            <item value="OPERATOR_BARRED" />
+            <item value="MISSING_UNKNOWN_APN" />
+            <item value="UNKNOWN_PDP_ADDRESS_TYPE" />
+            <item value="USER_AUTHENTICATION" />
+            <item value="SERVICE_OPTION_NOT_SUPPORTED" />
+            <item value="SERVICE_OPTION_NOT_SUBSCRIBED" />
+            <item value="NSAPI_IN_USE" />
+            <item value="ONLY_IPV4_ALLOWED" />
+            <item value="ONLY_IPV6_ALLOWED" />
+            <item value="RADIO_POWER_OFF" />
+            <item value="TETHERED_CALL_ACTIVE" />
+            <item value="RADIO_NOT_AVAILABLE" />
+            <item value="UNACCEPTABLE_NETWORK_PARAMETER" />
+            <item value="SIGNAL_LOST" />
+        </string-array>
+        <boolean name="editable_wfc_roaming_mode_bool" value="true"/>
+        <boolean name="disable_severe_when_extreme_disabled_bool" value="false" />
+        <boolean name="persist_lpp_mode_bool" value="true" />
+        <int name="wfc_spn_format_idx_int" value="1" />
+        <string-array name="read_only_apn_fields_string_array" num="20">
+            <item value="name" />
+            <item value="proxy" />
+            <item value="port" />
+            <item value="user" />
+            <item value="password" />
+            <item value="server" />
+            <item value="mmsc" />
+            <item value="mmsproxy" />
+            <item value="mmsport" />
+            <item value="mcc" />
+            <item value="mnc" />
+            <item value="authtype" />
+            <item value="type" />
+            <item value="protocol" />
+            <item value="roaming_protocol" />
+            <item value="bearer" />
+            <item value="bearer_bitmask" />
+            <item value="carrier_enabled" />
+            <item value="mvno_type" />
+            <item value="mvno_match_data" />
+        </string-array>
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="dun" />
+            <item value="supl" />
+        </string-array>
+        <string-array name="carrier_metered_roaming_apn_types_strings" num="4">
+            <item value="default" />
+            <item value="dun" />
+            <item value="mms" />
+            <item value="supl" />
+        </string-array>
+        <boolean name="disable_voice_barring_notification_bool" value="true" />
+        <boolean name="show_apn_setting_cdma_bool" value="true" />
+        <int name="smsToMmsTextThreshold" value="7" />
+        <boolean name="smsUsesSimpleCharactersOnly" value="false" />
+        <boolean name="carrier_volte_provisioning_required_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="moto_lppe_available_bool" value="true" />
+        <boolean name="carrier_allow_turnoff_ims_bool" value="false" />
+        <boolean name="support_pause_ims_video_calls_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="editable_wfc_mode_bool" value="false"/>
+        <int name="carrier_default_wfc_ims_mode_int" value="1"/>
+        <boolean name="editable_wfc_roaming_mode_bool" value="true" />
+        <int name="carrier_default_wfc_ims_roaming_mode_int" value="1"/>
+        <boolean name="allow_video_call_in_low_battery" value="true" />
+        <boolean name="moto_enable_broadcast_phone_state_change" value="true" />
+        <boolean name="moto_auto_resume_holding_call" value="true" />
+        <boolean name="carrier_allow_vce_bool" value="true" />
+        <boolean name="carrier_wfc_mdn_required_bool" value="true" />
+        <boolean name="disable_severe_when_extreme_disabled_bool" value="false" />
+        <boolean name="downgrade_video_call_when_mobile_data_off" value="false" />
+        <boolean name="use_rcs_presence_bool" value="true" />
+        <boolean name="rtt_supported_bool" value="true" />
+        <boolean name="carrier_rtt_supported_on_vtcalls" value="false"/>
+        <boolean name="carrier_rtt_upgrade_supported" value="true"/>
+        <boolean name="carrier_rtt_downgrade_supported" value="true"/>
+        <boolean name="show_iccid_in_sim_status_bool" value="true" />
+    </carrier_config>
+    <!-- Droid Roaming -->
+    <carrier_config gid1="BAE0000000000000" carrierid="vzw">
+        <string name="carrier_vvm_package_name_string">com.motorola.visualvoicemail</string>
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config gid1="5A"> <!-- SaskTel -->
+        <boolean name="smsUsesSimpleCharactersOnly" value="false" />
+    </carrier_config>
+    <carrier_config spn="HOT mobile">
+        <boolean name="smsUsesSimpleCharactersOnly" value="false" />
+    </carrier_config>
+    <carrier_config spn="中国电信"> <!-- China Telecom -->
+        <int name="smsToMmsTextThreshold" value="6" />
+        <boolean name="smsUsesSimpleCharactersOnly" value="false" />
+        <boolean name="editable_wfc_mode_bool" value="false"/>
+        <int name="carrier_default_wfc_ims_mode_int" value="1"/>
+        <boolean name="editable_wfc_roaming_mode_bool" value="true" />
+        <int name="carrier_default_wfc_ims_roaming_mode_int" value="1"/>
+        <boolean name="moto_app_directed_sms_enabled" value="true" />
+        <string-array name="moto_mt_sms_filter_list" num="4">
+            <item value="bynumber;900080002021;com.motorola.visualvoicemail;com.motorola.visualvoicemail.receivers.SMSCatcher" />
+            <item value="bynumber;900080006002;com.motorola.visualvoicemail;com.motorola.visualvoicemail.receivers.SMSCatcher" />
+            <item value="bynumber;900080006003;com.motorola.visualvoicemail;com.motorola.visualvoicemail.receivers.SMSCatcher" />
+            <item value="bynumber;900080006004;com.motorola.visualvoicemail;com.motorola.visualvoicemail.receivers.SMSCatcher" />
+        </string-array>
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="false" />
+        <boolean name="carrier_ims_setting_reset_after_sim_swap_bool" value="true" />
+    </carrier_config>
+    <carrier_config spn="U.S. Cellular">
+        <string name="default_vm_number_string"></string>
+        <boolean name="config_telephony_use_own_number_for_voicemail_bool" value="true" />
+    </carrier_config>
+</carrier_config_list>
+

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="hide_ims_apn_bool" value="true" />
+        <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
+    </carrier_config>
+</carrier_config_list>
+

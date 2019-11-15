@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <int name="smsToMmsTextThreshold" value="10" />
+        <int name="maxSubjectLength" value="80" />
+        <int name="wfc_spn_format_idx_int" value="1" />
+        <string name="default_vm_number_string">121</string>
+        <string-array name="feature_access_codes_string_array" num="3">
+            <item value="153" />
+            <item value="132" />
+            <item value="45" />
+        </string-array>
+        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="dun" />
+            <item value="supl" />
+        </string-array>
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="hide_ims_apn_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+</carrier_config_list>
+

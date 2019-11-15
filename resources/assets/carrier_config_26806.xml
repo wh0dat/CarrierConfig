@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <boolean name="mmsRoamingAutoRetrieveByDefault" value="true"/>
+        <int name="maxMessageSize" value="307200" />
+        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
+        <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="dun" />
+            <item value="supl" />
+        </string-array>
+    </carrier_config>
+</carrier_config_list>
+

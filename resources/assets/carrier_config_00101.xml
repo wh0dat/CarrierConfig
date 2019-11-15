@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+       <boolean name="show_apn_setting_cdma_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <int name="recipientLimit" value="20" />
+        <int name="smsToMmsTextThreshold" value="6" />
+    </carrier_config>
+    <carrier_config customerid="verizon">
+        <string name="carrier_eri_file_name_string">eri_311480.xml</string>
+        <int name="volte_replacement_rat_int" value="6" />
+    </carrier_config>
+    <carrier_config customerid="ACG">
+        <int name="volte_replacement_rat_int" value="6" />
+    </carrier_config>
+    <carrier_config customerid="tracfone">
+        <int name="volte_replacement_rat_int" value="6" />
+    </carrier_config>
+    <carrier_config customerid="LRA">
+        <int name="volte_replacement_rat_int" value="6" />
+    </carrier_config>
+    <carrier_config carrierid="att">
+        <boolean name="moto_hide_non_user_apn_edit_delete_bool" value="true" />
+        <boolean name="hide_ims_apn_bool" value="true" />
+        <boolean name="moto_app_directed_sms_enabled" value="true" />
+        <boolean name="moto_app_directed_wap_push_enabled" value="true" />
+        <string-array name="moto_mt_sms_filter_list" num="1">
+            <item value="byspecialchecking;CBSLoader;null;null;IqAgentSmsUtils;isIqAgentSms" />
+        </string-array>
+    </carrier_config>
+    <carrier_config carrierid="tmo">
+        <boolean name="moto_hide_non_user_apn_edit_delete_bool" value="true" />
+    </carrier_config>
+    <carrier_config carrierid="metropcs">
+        <boolean name="moto_hide_non_user_apn_edit_delete_bool" value="true" />
+    </carrier_config>
+</carrier_config_list>
+

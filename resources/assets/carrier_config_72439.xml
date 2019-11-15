@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <int name="maxMessageSize" value="307200" />
+    </carrier_config>
+    <carrier_config device="lux">
+        <boolean name="hide_ims_apn_bool" value="true" />
+    </carrier_config>
+</carrier_config_list>
+

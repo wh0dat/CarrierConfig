@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="editable_wfc_mode_bool" value="false" />
+        <int name="carrier_default_wfc_ims_mode_int" value="1"/>
+        <boolean name="hide_ims_apn_bool" value="true" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+</carrier_config_list>
+

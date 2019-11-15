@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+  <carrier_config>
+    <boolean name="smsUsesSimpleCharactersOnly" value="true" />
+    <boolean name="display_hd_audio_property_bool" value="false" />
+    <boolean name="call_barring_visibility_bool" value="true" />
+    <string name="default_vm_number_string">+38970121212</string>
+    <string name="vvm_type_string">vvm_type_disable</string>
+  </carrier_config>
+</carrier_config_list>
+

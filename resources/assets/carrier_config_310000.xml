@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <boolean name="rtt_supported_bool" value="true" />
+        <int name="smsToMmsTextThreshold" value="6" />
+        <int name="recipientLimit" value="40" />
+        <int name="maxSubjectLength" value="80" />
+        <int name="maxMessageSize" value="1048576" />
+        <string name="emailGatewayNumber">6245</string>
+        <string name="httpParams">X-MDN: ##LINE1##|Proxy-Authorization: Basic ##NAI##</string>
+        <int name="volte_replacement_rat_int" value="6" />
+        <string-array name="moto_mt_sms_filter_list" num="1">
+            <item value="byprefixsuffix;//ANDROID;com.coremobility.app.vnotes;com.coremobility.integration.message.CM_SMSReceiver;//CM" />
+        </string-array>
+        <int name="cdma_3waycall_flash_delay_int" value="200" />
+    </carrier_config>
+    <carrier_config spn="bluewire">
+        <int name="smsToMmsTextThreshold" value="1" />
+        <int name="recipientLimit" value="20" />
+        <int name="maxSubjectLength" value="80" />
+        <int name="maxMessageSize" value="1228800" />
+        <string name="httpParams">X-MDN: ##LINE1##</string>
+        <boolean name="use_otasp_for_provisioning_bool" value="true" />
+    </carrier_config>
+    <carrier_config spn="commnet">
+        <int name="smsToMmsTextThreshold" value="1" />
+        <int name="recipientLimit" value="20" />
+        <int name="maxSubjectLength" value="80" />
+        <int name="maxMessageSize" value="1048576" />
+        <string name="httpParams">X-MDN: ##LINE1##</string>
+    </carrier_config>
+    <carrier_config spn="distribution">
+        <int name="smsToMmsTextThreshold" value="1" />
+        <int name="recipientLimit" value="20" />
+        <int name="maxSubjectLength" value="80" />
+        <int name="maxMessageSize" value="1048576" />
+        <string name="httpParams">X-MDN: ##LINE1##</string>
+    </carrier_config>
+    <carrier_config spn="flatwire">
+        <int name="smsToMmsTextThreshold" value="1" />
+        <int name="recipientLimit" value="20" />
+        <int name="maxSubjectLength" value="80" />
+        <int name="maxMessageSize" value="1048576" />
+        <string name="httpParams">X-MDN: ##LINE1##</string>
+        <boolean name="use_otasp_for_provisioning_bool" value="true" />
+    </carrier_config>
+    <carrier_config spn="mobilenation">
+        <int name="smsToMmsTextThreshold" value="1" />
+        <int name="recipientLimit" value="20" />
+        <int name="maxSubjectLength" value="80" />
+        <int name="maxMessageSize" value="1048576" />
+        <string name="httpParams">X-MDN: ##LINE1##</string>
+        <boolean name="use_otasp_for_provisioning_bool" value="true" />
+    </carrier_config>
+    <carrier_config spn="mobipcs">
+        <int name="smsToMmsTextThreshold" value="1" />
+        <int name="recipientLimit" value="20" />
+        <int name="maxSubjectLength" value="80" />
+        <int name="maxMessageSize" value="1048576" />
+        <string name="httpParams">X-MDN: ##LINE1##</string>
+        <boolean name="use_otasp_for_provisioning_bool" value="true" />
+    </carrier_config>
+    <carrier_config spn="mohave">
+        <int name="smsToMmsTextThreshold" value="1" />
+        <int name="recipientLimit" value="20" />
+        <int name="maxSubjectLength" value="80" />
+        <int name="maxMessageSize" value="1048576" />
+        <string name="httpParams">X-MDN: ##LINE1##</string>
+    </carrier_config>
+    <carrier_config spn="peopleswire">
+        <int name="smsToMmsTextThreshold" value="1" />
+        <int name="recipientLimit" value="20" />
+        <int name="maxSubjectLength" value="80" />
+        <int name="maxMessageSize" value="1048576" />
+        <string name="httpParams">X-MDN: ##LINE1##</string>
+    </carrier_config>
+    <carrier_config spn="revol">
+        <int name="smsToMmsTextThreshold" value="1" />
+        <int name="recipientLimit" value="20" />
+        <int name="maxSubjectLength" value="80" />
+        <int name="maxMessageSize" value="1048576" />
+        <string name="httpParams">X-MDN: ##LINE1##</string>
+        <boolean name="use_otasp_for_provisioning_bool" value="true" />
+    </carrier_config>
+    <carrier_config spn="tracfone">
+        <boolean name="aliasEnabled" value="true" />
+        <boolean name="enabledNotifyWapMMSC" value="true" />
+        <boolean name="enabledTransID" value="true" />
+        <string name="httpParams">accept-charset: US-ASCII, ISO-8859-1, UTF-8|x-up-calling-line-id: ##LINE1##|x-vzw-mdn: ##LINE1##</string>
+        <int name="maxMessageSize" value="1228800" />
+        <int name="maxSubjectLength" value="80" />
+        <string name="uaProfTagName">profile</string>
+        <int name="smsToMmsTextThreshold" value="7" />
+        <int name="recipientLimit" value="20" />
+        <boolean name="show_cdma_choices_bool" value="true" />
+        <boolean name="allow_adding_apns_bool" value="false" />
+    </carrier_config>
+    <carrier_config spn="Sprint|Moto">
+        <boolean name="dtmf_type_enabled_bool" value="true" />
+        <boolean name="voicemail_notification_persistent_bool" value="true" />
+        <boolean name="support_swap_after_merge_bool" value="false" />
+        <boolean name="apn_expand_bool" value="false" />
+        <boolean name="show_cdma_choices_bool" value="true" />
+        <boolean name="carrier_settings_enable_bool" value="true" />
+        <boolean name="use_hfa_for_provisioning_bool" value="true" />
+        <int name="volte_replacement_rat_int" value="6" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="carrier_volte_provisioning_required_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="hide_ims_apn_bool" value="true" />
+        <boolean name="carrier_rtt_supported" value="true" />
+        <boolean name="carrier_rtt_auto_upgrade" value="false" />
+        <boolean name="carrier_rtt_upgrade_supported" value="true"/>
+        <boolean name="carrier_rtt_downgrade_supported" value="false"/>
+        <boolean name="carrier_rtt_supported_on_vtcalls" value="false"/>
+        <string name="emailGatewayNumber">6245</string>
+        <boolean name="enabledMMS" value="true" />
+        <boolean name="enableMMSReadReports" value="false" />
+        <boolean name="enableSMSDeliveryReports" value="false" />
+        <string name="httpParams">X-MDN: ##LINE1##|Proxy-Authorization: Basic ##NAI##</string>
+        <int name="maxImageHeight" value="1944" />
+        <int name="maxImageWidth" value="2592" />
+        <int name="maxMessageSize" value="1048576" />
+        <int name="maxSubjectLength" value="80" />
+        <string name="naiSuffix">:pcs</string>
+        <int name="recipientLimit" value="40" />
+        <int name="smsToMmsTextThreshold" value="6" />
+        <boolean name="supportMmsContentDisposition" value="false" />
+        <boolean name="allow_non_emergency_calls_in_ecm_bool" value="false" />
+        <string name="carrier_eri_file_name_string">eri_310120.xml</string>
+        <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
+        <boolean name="gsm_cdma_calls_can_be_hd_audio" value="true" />
+        <string-array name="moto_mt_sms_filter_list" num="3">
+            <item value="byprefixsuffix;//ANDROID;com.coremobility.app.vnotes;com.coremobility.integration.message.CM_SMSReceiver;//CM" />
+            <item value="byprefix;//LL;com.locationlabs.sparkle.yellow.pre;com.locationlabs.v3client.util.SMSNotificationListener" />
+            <item value="byprefix;//OEMTEST:;null;null" />
+        </string-array>
+    </carrier_config>
+</carrier_config_list>
+

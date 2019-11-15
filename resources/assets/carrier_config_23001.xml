@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <int name="volte_replacement_rat_int" value="3" />
+        <boolean name="smsUsesSimpleCharactersOnly" value="true" />
+        <boolean name="hide_ims_apn_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <string name="default_vm_number_string">+420603123311</string>
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="dun" />
+            <item value="supl" />
+        </string-array>
+        <int name="carrier_default_wfc_ims_roaming_mode_int" value="1"/>
+        <boolean name="moto_wfc_roaming_mode_use_home_mode_when_hidden_bool" value="false" />
+        <int name="wfc_spn_format_idx_int" value="1" />
+        <boolean name="display_hd_audio_property_bool" value="false" />
+        <boolean name="call_barring_visibility_bool" value="true" />
+    </carrier_config>
+</carrier_config_list>
+

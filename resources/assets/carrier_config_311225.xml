@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <boolean name="enableMultipartSMS" value="false" />
+        <boolean name="enabledNotifyWapMMSC" value="true" />
+        <boolean name="enabledTransID" value="true" />
+        <string name="httpParams">x-vzw-mdn: 1##LINE1##</string>
+        <int name="maxImageHeight" value="1944" />
+        <int name="maxImageWidth" value="2592" />
+        <int name="cdma_3waycall_flash_delay_int" value="300" />
+        <int name="maxMessageSize" value="1048576" />
+        <int name="maxSubjectLength" value="80" />
+        <int name="recipientLimit" value="20" />
+        <boolean name="show_cdma_choices_bool" value="true" />
+        <boolean name="show_apn_setting_cdma_bool" value="true" />
+        <string name="carrier_eri_file_name_string">eri_usc.xml</string>
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="carrier_volte_provisioning_required_bool" value="true" />
+        <boolean name="config_device_wfc_ims_available" value="true" />
+        <boolean name="config_telephony_use_own_number_for_voicemail_bool" value="true" />
+    </carrier_config>
+    <carrier_config carrierid="usc">
+        <string-array name="read_only_apn_fields_string_array" num="18">
+          <item value="proxy" />
+          <item value="port" />
+          <item value="user" />
+          <item value="password" />
+          <item value="server" />
+          <item value="mmsc" />
+          <item value="mmsproxy" />
+          <item value="mmsport" />
+          <item value="mcc" />
+          <item value="mnc" />
+          <item value="authtype" />
+          <item value="type" />
+          <item value="protocol" />
+          <item value="roaming_protocol" />
+          <item value="carrier_enabled" />
+          <item value="bearer" />
+          <item value="mvno_type" />
+          <item value="mvno_match_data" />
+        </string-array>
+        <string-array name="new_apn_default_value_fields_string_array" num="3">
+          <item value="apn:usccinternet"/>
+          <item value="bearer:14"/>
+          <item value="protocol:IPV4V6"/>
+        </string-array>
+        <string-array name ="new_apn_read_only_apn_fields_string_array" num="18">
+            <item value="proxy" />
+            <item value="port" />
+            <item value="user" />
+            <item value="password" />
+            <item value="server" />
+            <item value="mmsc" />
+            <item value="mmsproxy" />
+            <item value="mmsport" />
+            <item value="mcc" />
+            <item value="mnc" />
+            <item value="authtype" />
+            <item value="type" />
+            <item value="protocol" />
+            <item value="roaming_protocol" />
+            <item value="carrier_enabled" />
+            <item value="bearer" />
+            <item value="mvno_type" />
+            <item value="mvno_match_data" />
+        </string-array>
+        <boolean name="force_imei_bool" value="true" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+        <boolean name="show_iccid_in_sim_status_bool" value="true" />
+    </carrier_config>
+</carrier_config_list>
+

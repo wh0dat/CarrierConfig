@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <boolean name="rtt_supported_bool" value="true" />
+        <string name="emailGatewayNumber">6245</string>
+        <boolean name="enableSMSDeliveryReports" value="false" />
+        <string name="httpParams">X-CS3G-MDN: ##LINE1##</string>
+        <int name="maxImageHeight" value="2432" />
+        <int name="maxImageWidth" value="4320" />
+        <int name="maxMessageSize" value="2097152" />
+        <int name="maxSubjectLength" value="80" />
+        <int name="recipientLimit" value="20" />
+        <int name="smsToMmsTextThreshold" value="1" />
+        <boolean name="mmsRoamingAutoRetrieveByDefault" value="true"/>
+        <boolean name="use_otasp_for_provisioning_bool" value="true" />
+        <string name="carrier_eri_file_name_string">eri_311230.xml</string>
+        <int name="volte_replacement_rat_int" value="6" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="carrier_volte_provisioning_required_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="hide_ims_apn_bool" value="true" />
+        <boolean name="carrier_rtt_supported" value="true" />
+        <boolean name="carrier_rtt_auto_upgrade" value="false" />
+        <boolean name="carrier_rtt_upgrade_supported" value="true"/>
+        <boolean name="carrier_rtt_downgrade_supported" value="false"/>
+        <boolean name="carrier_rtt_supported_on_vtcalls" value="false"/>
+        <int name="cdma_3waycall_flash_delay_int" value="200" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+        <boolean name="config_telephony_use_own_number_for_voicemail_bool" value="true" />
+    </carrier_config>
+    <carrier_config spn="Sprint">
+        <string-array name="moto_mt_sms_filter_list" num="3">
+            <item value="byprefixsuffix;//ANDROID;com.coremobility.app.vnotes;com.coremobility.integration.message.CM_SMSReceiver;//CM" />
+            <item value="byprefix;//LL;com.locationlabs.sparkle.yellow.pre;com.locationlabs.v3client.util.SMSNotificationListener" />
+            <item value="byprefix;//OEMTEST:;null;null" />
+        </string-array>
+    </carrier_config>
+</carrier_config_list>
+
